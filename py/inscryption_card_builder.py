@@ -28,6 +28,7 @@ class InscryptionCardBuilder(object):
         data.image = pygame.image.load(self._resources.joinpath('border', data.template).with_suffix(".png"))
         help_font = pygame.font.Font(self._resources.joinpath('font', 'GARBAGES.TTF'),16)
         extra_font = pygame.font.Font(self._resources.joinpath('font', 'GARBAGES.TTF'),18)
+        blood_font = pygame.font.Font(self._resources.joinpath('font', 'GARBAGES.TTF'),48)
 
         (NAME_WIDTH, NAME_HEIGHT) = (240, 100)
         NAME_ASPECT_RATIO = NAME_WIDTH/NAME_HEIGHT
@@ -44,6 +45,12 @@ class InscryptionCardBuilder(object):
 
         # card_name_surface = pygame.transform.smoothscale(card_name_surface, (NAME_WIDTH,card_name_surface.get_height()/card_name_surface.get_width()*NAME_HEIGHT))
         data.image.blit(card_name_surface, (card.WIDTH/2-card_name_surface.get_width()/2,50-card_name_surface.get_height()/2))
+
+        cost = data.cost.split(' ')
+        print("DEBUG: %s" % cost)
+        if cost[0].lower() == "blood":
+            cost_surface = blood_font.render(cost[1], True, (120,0,0))
+            data.image.blit(cost_surface, (250,90))
 
         number_font = pygame.font.Font(self._resources.joinpath('font', 'GARBAGES.TTF'), 96)
         POWER_X, POWER_Y = (26, 260)
