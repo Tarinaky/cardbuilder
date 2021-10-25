@@ -1,0 +1,101 @@
+[
+		{
+				"name":"Dive",
+				"initials":"Dv",
+				"help":["As Waterborne, except replace",
+					"with random tentacle when",
+					"flipped face up"]
+		},
+		{
+				"name":"Waterborne",
+				"initials":"Wb",
+				"help":["Creature submerges after it attacks,",
+					"and surfaces at beginning of turn"]
+		},
+		{
+				"name":"Battery Bearer",
+				"initials":"BB",
+				"help":["When this card enters the","field, gain +1 Energy"]
+		},
+		{
+				"name":"Trifuricated Strike",
+				"initials":"TS",
+				"help":["This card attacks the opposing",
+					"spaces to the left, center and",
+					"right of it"]
+		},
+		{
+				"name":"Mighty Leap",
+				"initials":"ML",
+				"help":["This blocks and is attacked by","Airborne creatures"]
+		},
+		{
+				"name":"Burrowing",
+				"initials":"Br",
+				"help":["When an empty space on your side",
+					"would be attacked, this card",
+					"moves to intercept"]
+		},
+		{
+				"name":"Unkillable",
+				"initials":"Uk",
+				"help":["When this card perishes, create","a copy of it in your hand"]
+		},
+		{
+				"name":"Many Lives",
+				"initials":"Mn",
+				"help":["Does not perish when used","as a sacrifice"]
+		},
+		{
+				"name":"Growth",
+				"initials":"Gr",
+				"help":["At the beginning of your turn, this creature transforms"],
+				"verb":"Becomes"
+		},
+		{
+				"name":"Sprinter",
+				"initials":"Sp",
+				"help":["After this card attacks it moves",
+					"1 space to the right if available",
+					"or changes direction"]
+		},
+		{
+				"name":"Squirrel Drop",
+				"initials":"SD",
+				"help":["When this card moves,","place a squirrel behind it"],
+				"force":true
+
+		},
+		{
+				"name":"Spawn Rabbit",
+				"initials":"SR",
+				"help":["When played, add a",
+					"Rabbit (Free 0/1) to your hand"]
+		},
+		{
+				"name":"Touch of Death",
+				"initials":"TD",
+				"help":["Any damage dealt by this card","is enough to make a creature","perish"]
+		},
+		{
+				"name":"Guardian",
+				"initials":"Gd",
+				"help":["When an opposing creature is",
+					"placed this card moves to its ",
+					"opposing space if available"]
+		},
+		{
+				"name":"Fecundity",
+				"initials":"Fc",
+				"help":["When played add a copy of","this card to your hand"]
+
+		},
+		{
+				"name":"Airborne",
+				"initials":"Ab",
+				"help":["Attacks your opponent directly",
+					"even when creature occupies",
+					"its opposing tiles"]
+		}
+]
+
