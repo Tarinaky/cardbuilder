@@ -13,3 +13,8 @@ Assuming you have your png resources and input csv all within the same directory
 e.g.:
 	`docker run -v "c:\dev\card_builder":/data cardbuilder -r /data/resources -i /data/test.csv -o /data/out`
 
+# Attribution
+Art assets provided by:
+ * [Beverwitch](https://twitter.com/baublebeverage)
+
+With thanks to [Daniel Mullins](https://twitter.com/DMullinsGames) for creating Inscryption

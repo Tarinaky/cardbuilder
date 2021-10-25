@@ -1,0 +1,95 @@
+Great Kraken,beast,Blood 1,1,1,Dive
+Hrokall,beast,Blood 1,1,1,"Waterborne,Battery Bearer"
+Mantis God,beast,Blood 1,1,1,Trifuricated Strike
+Mole Man,beast,Blood 1,0,6,"Mighty Leap,Burrowing"
+Ouroboros,beast,Blood 2,1,1,Unkillable,"+1/+1 each time it dies"
+Urayuli,beast,Blood 4,7,7,
+Squirrel,beast,,0,1,
+Bullfrog,beast,Blood 1,1,2,Mighty Leap
+Cat,beast,Blood 1,0,1,Many Lives,"When sacrificed 9 times|becomes Undead Cat 3/6|1 Blood"
+Elk Fawn,beast,Blood 1,1,1,"Sprinter,Growth (Elk 2/4 Sprinter)"
+Mole,beast,Blood 1,0,4,Burrowing
+Squirrel Ball,beast,Blood 1,0,1,"Sprinter, Squirrel Drop"
+Stoat,beast,Blood 1,1,2,
+Warren,beast,Blood 1,0,2,Spawn Rabbit
+Wolf Cub,beast,Blood 1,1,1,Growth (Wolf 3/2)
+Adder,beast,Blood 2,1,1,Touch of Death
+Bloodhound,beast,Blood 2,2,3,Guardian
+Elk,beast,Blood 2,2,4,Sprinter
+Field Mice,beast,Blood 2,2,2,Fecundity
+Hawk,beast,Blood 2,3,1,Airborne
+Raven,beast,Blood 2,2,3,Airborne
+Salmon,beast,Blood 2,2,2,"Waterborne,Sprinter"
+Grizzly,beast,Blood 3,4,6,
+
+Bone Heap,crypt,,0,1,Tribute (2 bones: +1/+1)
+Tomb Robber,crypt,,0,1,Tribute (1 bone: Spawn Skeleton)
+Necromancer,crypt,Bone 3,1,2,Redeath
+Drowned Soul,crypt,Bone 4,1,1,"Waterborne,Touch of Death"
+Dead Hand,crypt,Bone 5,1,1,Mulligan
+Headless Horseman,Bone 13,5,5,"Airborne,Sprinter"
+Skeleton,crypt,,1,1,Brittle
+Draugr,crypt,Bone 1,0,1,Frozen (Skeleton 1/1 Brittle)
+Gravedigger,crypt,Bone 1,0,3,Bonedigging
+Banshee,crypt,Bone 2,1,1,Airborne
+Skelemagus,crypt,Bone 2,4,1,"Brittle,Moxbound"
+Zombie,crypt,Bone 2,1,1,
+Bone Lord's Horn,crypt,Bone 3,1,1,Tribute (1 Energy: +3 Bones)
+Broken Obol (L),crypt,Bone 3,0,2,Sharp Quills
+Broken Obol (R),crypt,Bone 3,0,2,Bone King
+Revenant,crypt,Bone 3,3,1,Brittle
+Ghost Ship,crypt,Bone 4,0,1,"Waterborne,Sprinter,Skeleton Drop"
+Sarcophagus,crypt,Bone 4,0,2,Growth
+Mummy Lord,crypt,Bone 8,3,3,
+The Walkers,crypt,Bone 4,1,2,Bone King
+Frank & Stein,crypt,Bone 5,2,2,
+Pharoh's Pets,crypt,Bone 6,0,1,"Worthy Sacrifice,Many Lives"
+Bonehound,crypt,Bone 7,2,3,Guardian
+
+Plasma Jimmy,tech,Energy 2,0,3,Tribute (1 Energy: 1 damage to opposing creature)
+Curve Hopper,tech,Energy 4,2,3,
+Energy Conduit,tech,Energy 3,1,2,Circuit (Energy never depletes)
+Mox Module,tech,Energy 3,0,3,"Blue Mox,Green Mox,Orange Mox"
+Mrs. Bomb,tech,Energy 3,1,2,Bomb Carpet
+Shutterbug,tech,Energy 5,1,1,"Touch of Death,Sentry"
+L33pBot,tech,Energy 1,0,2,Mighty Leap
+Null Conduit,tech,Energy 1,0,1,Circuit
+Sentry Bot,tech,Energy 1,0,1,Sentry
+49er,tech,Energy 2,1,1,Sprinter
+Buff Conduit,tech,Energy 2,0,2,Circuit (+1 Power)
+Energy Bot,tech,Energy 2,0,1,Battery Bearer
+Explode Bot,tech,Energy 2,1,1,Explosion
+M3atBot,tech,Energy 2,0,1,Worthy Sacrifice
+Automaton,tech,Energy 3,1,1,
+Factory Conduit,tech,Energy 3,0,2,Circuit (L33pbot Drop)
+Gamblebot,tech,Energy 3,0,1,Tribute (1 Energy: Roll 1d6, result = Power)
+Insectdrone,tech,Energy 3,1,1,Airborne
+Steel Mice,tech,Energy 4,1,1,Fecundity
+Thick Droid,tech,Energy 5,1,3,
+Bolthound,tech,Energy 6,2,2,Guardian
+Double Gunner,tech,Energy 6,2,1,Bifurcated Strike
+Steambot,tech,Energy 6,2,2,
+
+Bleene's Mox,magic,,0,2,"Blue Mox,Green Mox"
+Goranj's Mox,magic,,0,2,"Green Mox,Orange Mox"
+Orlu's Mox,magic,,0,2,"Blue Mox,Orange Mox"
+Master Bleene,magic,Gem Blue Green,0,4,Tribute (Blue Gem, Sacrifice: Draw 3 cards
+Master Goranj,magic,Gem Orange Green,2,6,Moxbound
+Master Orlu,magic,Gem Blue Orange,1,1,Aurborne,Damage Draw
+Emerald Mox,magic,,0,1,Green Mox
+Sapphire Mox,magic,,0,1,Blue Mox
+Ruby Mox,magic,,0,1,Orange Mox
+Mage Pupil,magic,,1,1,Moxbound
+Gourmage,magic,Gem Green,0,2,Tribute (2 Bones: +1/+1)
+Green Mage,magic,Gem Green,0,2,Mox Power
+Junior Sage,magic,Gem Green,1,2,
+Muscle Mage,magic,Gem Green,1,1,Hefty
+Stim Mage,magic,Gem Green,0,2,Tribute (3 Energy: +1/+1)
+Mage Knight,magic,Gem Orange,1,3,Moxbound
+Orange Mage,magic,Gem Orange,0,1,Mox Buffer (+1/+0)
+Practice Wizard,magic,Gem Orange,0,3,
+Ruby Golem,magic,Gem Orange,1,1,"Object,Ruby Heart"
+Blue Mage,magic,Gem Blue,0,1,Mox Draw
+Force Mage,magic,Gem Blue,0,1,Unsettling
+Gem Fiend,magic,Gem Blue,2,1,Moxbound
+Hover Mage,magic,Gem Blue,1,1,Airborne
