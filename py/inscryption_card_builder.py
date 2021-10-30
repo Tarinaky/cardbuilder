@@ -9,6 +9,7 @@ import card
 import sigils
 import template
 
+
 class InscryptionCardBuilder(object):
     def __init__(self, resources, inputfile, **args):
         if not pygame.font.get_init():
@@ -17,15 +18,17 @@ class InscryptionCardBuilder(object):
         self._resources = resources
         self._inputfile = inputfile
 
-
-        with open(self._resources.joinpath('sigils.json')) as sigil_file:
+        with open(self._resources.joinpath("sigils.json")) as sigil_file:
             self._sigil_list = sigils.SigilList(json.load(sigil_file))
 
     def generate_card(self, row):
         data = card.from_csv_row(row)
         print("DEBUG: Generating %s" % data)
 
-        card_template = template.Template(self._resources, self._resources.joinpath('border', data.template).with_suffix('.json'))
+        card_template = template.Template(
+            self._resources,
+            self._resources.joinpath("border", data.template).with_suffix(".json"),
+        )
         data.image = card_template.get_border()
         card_template.render_card_name(data.image, data.name)
 
@@ -35,7 +38,9 @@ class InscryptionCardBuilder(object):
 
         card_template.render_sigils(data.image, self._sigil_list, data.sigils)
 
-        card_template.render_text(data.image, data.trigger, self._sigil_list, data.sigils)
+        card_template.render_text(
+            data.image, data.trigger, self._sigil_list, data.sigils
+        )
 
         return data
 
@@ -59,4 +64,3 @@ class InscryptionCardBuilder(object):
                             return
                 except Exception as e:
                     print(e)
-        

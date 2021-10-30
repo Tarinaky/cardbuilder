@@ -1,6 +1,3 @@
-
-
-
 class SigilList(object):
     def __init__(self, json):
         self._sigil_list = {}
@@ -12,11 +9,11 @@ class SigilList(object):
         print("DEBUG: %d sigils loaded" % len(self._sigil_list))
 
     def get(self, name):
-        return self._sigil_list[name.split('(')[0].strip().lower()]
+        return self._sigil_list[name.split("(")[0].strip().lower()]
 
 
 class Sigil(object):
-    def __init__(self,name,initials,helptext,verb=None,force=False):
+    def __init__(self, name, initials, helptext, verb=None, force=False):
         self.name = name.lower()
         self.initials = initials
         self.helptext = helptext
@@ -31,7 +28,7 @@ def sigil_from_json(json):
     return Sigil(
         name=json["name"],
         initials=json["initials"],
-        helptext=json.get("help",None),
-        verb=json.get("verb",None),
-        force=json.get("force",False)
+        helptext=json.get("help", None),
+        verb=json.get("verb", None),
+        force=json.get("force", False),
     )
