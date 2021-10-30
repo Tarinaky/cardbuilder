@@ -14,23 +14,24 @@ e.g.:
 	`docker run -v "c:\dev\card_builder":/data cardbuilder -r /data/resources -i /data/test.csv -o /data/out`
 
 # ToDo
+ * [ ] Update template JSON files with correct coordinate positions
  * [x] Read all Part 2 Leshy cards from CSV
- * [ ] Read all Part 2 Grimoria cards from CSV
- * [ ] Read all Part 2 Po3 cards from CSV
- * [ ] Read all Part 2 Magnificus cards from CSV
+ * [x] Read all Part 2 Grimoria cards from CSV
+ * [x] Read all Part 2 Po3 cards from CSV
+ * [x] Read all Part 2 Magnificus cards from CSV
  * [x] Display Trigger text
  * [x] Display helper text on cards with only 1 sigil
- * [ ] JSON definitions for all Sigils
+ * [x] JSON definitions for all Sigils
  * [ ] Use Sigil symbols instead of placeholders
  * [ ] Use Blood symbols for blood costs
  * [ ] Use Bone symbols for blood costs
  * [ ] Use Gem symbols for blood costs
  * [ ] Use Energy symbols for blood costs
- * [ ] Read Template data (colour, font, etc...) from JSON files
+ * [x] Read Template data (colour, font, etc...) from JSON files
  * [x] Support Beast template
- * [ ] Support Crypt template
- * [ ] Support Tech template
- * [ ] Support Magic template
+ * [x] Support Crypt template
+ * [x] Support Tech template
+ * [ ] Support Magic template (Note: Currently using Beast as placeholder)
 
 # Attribution
 Art assets provided by:

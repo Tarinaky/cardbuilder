@@ -96,6 +96,147 @@
 				"help":["Attacks your opponent directly",
 					"even when creature occupies",
 					"its opposing tiles"]
+		},
+		{
+				"name": "Tribute",
+				"initials": "Tb",
+				"help": ["Pay to activate effect"],
+				"verb": "Pay"
+		},
+		{
+				"name": "Redeath",
+				"initials": "Rd",
+				"help": ["When other creatures you",
+					"control perish, they perish",
+					"they perish a second time"]
+		},
+		{
+			"name": "Mulligan",
+			"initials": "Mg",
+			"help": ["When played you discard",
+				"your hand and draw",
+				"four cards"]
+		},
+		{
+			"name": "Frozen",
+			"initials": "Fz",
+			"help": ["When this card perishes",
+				"it drops the frozen creature"],
+			"verb": "Frozen"
+		},
+		{
+			"name": "Brittle",
+			"initials": "Bt",
+			"help": ["This creature perishes after",
+				"it attacks"]
+		},
+		{
+			"name": "Bonedigging",
+			"initials": "Bd",
+			"help": ["This card generates 1 bone",
+				"at the end of your turn"]
+		},
+		{
+			"name":"Moxbound",
+			"initials": "Mx",
+			"help": ["Perishes when there are",
+				"no Mox on your side",
+				"of the board"
+			]
+		},
+		{ 
+			"name":"Sharp Quils",
+			"initials":"Sq",
+			"help": ["When this creature is attacked",
+				"it also inflicts 1 damage", "to the creature that attacked it"]
+		},
+		{
+			"name": "Bone King",
+			"initials": "Bk",
+			"help": ["When this card perishes",
+				"it generates 4 bones", "instead of 1"]
+		},
+		{
+			"name":"Skeleton Drop",
+			"initials": "Sd",
+			"help": ["After this card sprints",
+				"it drops a 1/1 Skeleton"],
+			"force": true
+		},
+		{
+			"name": "Worthy Sacrifice",
+			"initials": "Ws",
+			"help": ["Provides 3 blood when",
+				"used as a sacrifice"]
+		},
+		{
+			"name": "Circuit",
+			"initials": "Cc",
+			"verb": "When complete|"
+		},
+		{
+			"name": "Blue Mox",
+			"initials": "Bx"
+		},
+		{
+			"name": "Green Mox",
+			"initials": "Gx"
+		},
+		{
+			"name": "Orange Mox",
+			"initials": "Ox"
+		},
+		{
+			"name": "Bomb Carpet",
+			"initials": "Bo",
+			"help": [
+				"When played drop an",
+				"Explode Bot into each",
+				"unnocupied space"]
+		},
+		{
+			"name": "Sentry",
+			"initials": "Sn"
+		},
+		{
+			"name": "Explosion",
+			"initials": "Ex"
+		},
+		{
+			"name": "Bifurcated Strike",
+			"initials": "Bs"
+		},
+		{
+			"name": "Damage Draw",
+			"initials": "Dd"
+		},
+		{
+			"name": "Mox Power",
+			"initials":"Mp"
+		},
+		{
+			"name": "Hefty",
+			"initials": "Hf"
+		},
+		{
+			"name": "Mox Buffer",
+			"initials": "Mb"
+		},
+		{
+			"name": "Object",
+			"initials":"Ob"
+		},
+		{
+			"name": "Ruby Heart",
+			"initials": "Rh"
+		},
+		{
+			"name": "Mox Draw",
+			"initials": "Md"
+		},
+		{
+			"name": "Unsettling",
+			"initials": "Us"
 		}
 ]
 

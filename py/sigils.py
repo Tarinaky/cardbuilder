@@ -31,7 +31,7 @@ def sigil_from_json(json):
     return Sigil(
         name=json["name"],
         initials=json["initials"],
-        helptext=json["help"],
+        helptext=json.get("help",None),
         verb=json.get("verb",None),
         force=json.get("force",False)
     )
